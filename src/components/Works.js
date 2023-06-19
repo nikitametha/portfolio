@@ -34,18 +34,19 @@ const Works = () => {
 						{WorkData.map((w, index) => {
 							return (
 								<div key={index}>
-									<Link to={w.gitlink} target='_blank' className='work-link-group'>
+									<a href={w.gitlink}  target='_blank' rel="noreferrer" className='work-link-group'>
 										<div className='works-card'>
 											<div className='works-container'>
 												<div className='top-work'>
 													<FiFolder className='work-folder' />
 													<div className='right'>
-														<Link
+														<a
 															className='work-link'
-															to={w.site}
-															target='_blank'>
+															href={w.site}
+															target='_blank'
+															rel="noreferrer">
 															<IoOpenOutline />
-														</Link>
+														</a>
 													</div>
 												</div>
 												<div className='mid-work'>
@@ -59,7 +60,7 @@ const Works = () => {
 												</div>
 											</div>
 										</div>
-									</Link>
+									</a>
 								</div>
 							);
 						})}

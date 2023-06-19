@@ -3,8 +3,8 @@ export const WorkData = [
 		title: "WorkoutRight",
 		desc: "A digital personal trainer",
 		tech: ["JavaScript", "PoseNet", "AWS"],
-		gitlink: "//github.com/nikitametha/WorkoutRight",
-		site: "//nikitametha.github.io/WorkoutRight/",
+		gitlink: "https://github.com/nikitametha/WorkoutRight",
+		site: "https://nikitametha.github.io/WorkoutRight/",
 	},
 	{
 		title: "Course Seat Checker",
