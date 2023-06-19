@@ -1,0 +1,164 @@
+.works-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 5rem;
+}
+
+.work-link-group {
+	text-decoration: none;
+}
+
+.works-container {
+	width: 100%;
+}
+
+.works-card {
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border-radius: 5px;
+	border-color: var(--nav-blue);
+	border-width:3px; 
+	border-style:solid;
+	position: relative;
+	padding: 1rem 2rem;
+	width: 300px;
+	max-width: 300px;
+	margin: 0 auto;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.works-card:hover {
+	transform: translateY(-7px);
+	background-color: var(--soft-white);
+}
+
+.works-card:hover .work-title {
+	color: var(--nav-bgd);
+}
+
+.top-work {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.top-work .right {
+	display: flex;
+}
+
+.mid-work {
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.work-title {
+	font-size: 1.3rem;
+	font-weight: 700;
+	word-spacing: 1px;
+	margin-bottom: 0.2rem;
+}
+
+.work-desc {
+	font-size: 80%;
+}
+.works-card:hover .work-desc {
+	color: var(--nav-bgd);
+}
+
+.work-folder {
+	font-size: 2rem;
+	color: var(--nav-blue);
+}
+.works-card:hover .work-folder {
+	color: var(--nav-bgd);
+}
+.works-card:hover .work-folder:hover {
+	color: var(--nav-blue-shade);
+}
+
+.work-git,
+.work-link {
+	color: var(--nav-grey);
+	margin: 0 0.5rem;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease;
+}
+.work-git:hover,
+.works-card:hover .work-link:hover {
+	color: var(--nav-blue-shade);
+}
+.works-card:hover .work-link {
+	color: var(--nav-bgd);
+}
+
+.bottom-work {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1px;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom-work small {
+	margin: 0 0.5rem;
+	font-size: 70%;
+}
+.works-card:hover .bottom-work {
+	color: var(--nav-bgd);
+}
+/* Media Queries */
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (max-width: 550px) {
+	.work-desc {
+		font-size: 60%;
+	}
+
+	.work-folder {
+		font-size: 1.5rem;
+	}
+
+	.work-git,
+	.work-link {
+		font-size: 1.2rem;
+	}
+
+	.work-title {
+		font-size: 1.2rem;
+	}
+
+	.bottom-work small {
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.works-card {
+		width: 250px;
+		max-width: 300px;
+		margin: 0 auto;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	}
+}
