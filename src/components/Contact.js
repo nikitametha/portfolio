@@ -28,7 +28,6 @@ const Contact = () => {
                         <div className="contact-hello">
                             <p>Say Hello</p>
                             <Link className='hello-links' to="//mailto:nikita.metha@gmail.com" target='_blank'>nikita.metha@gmail.com</Link>
-                            
                         </div>
                    
                 </div>

@@ -164,6 +164,7 @@
 	.hero-section {
 		padding: 3rem 1rem;
 		white-space: normal;
+		background-image: url("../images/hero-bg-1.jpg");
 	}
 
 	.hero-intro {

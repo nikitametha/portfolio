@@ -7,10 +7,18 @@ export const WorkData = [
 		site: "https://nikitametha.github.io/WorkoutRight/",
 	},
 	{
-		title: "Course Seat Checker",
+		title: "Open Seats Notifier",
 		desc: "A tool that checks for available seats for CS courses at ASU",
 		tech: ["Python", "AWS EC2", "Selenium", "AWS SNS"],
-		gitlink: "",
-		site: "",
+		gitlink: "https://github.com/nikitametha/OpenSeatsNotifier"
+	},
+
+	{
+		title: "Word Ladders",
+		desc: "Rendition of the Word Ladders Game invented by Lewis Carroll.",
+		tech: ["Python", "Flask", "Jinja2", "Javascript"],
+		gitlink: "https://github.com/nikitametha/wordLaddersv2"
 	}
+
+
 ];
