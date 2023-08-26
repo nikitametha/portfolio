@@ -1,14 +1,50 @@
-<div align="center">
-	<h1> My Portfolio </h1>
-	<p> My portfolio website which showcases my work and experience. </p>
-</div>
+# Nikita's Portfolio Website
+Portfolio website that showcases Nikita's work and experience.
 
 
 
-## Tech Stack ✨
 
-- [React.js](https://reactjs.org/) - UI Library
 
-## Credits ✍
 
-Inspired by [@Pappyjay23](https://github.com/Pappyjay23)
+
+
+
+
+
+
+
+## Website
+
+
+- [nikitametha.com](https://www.nikitametha.com) :)
+
+
+
+
+## Demo
+
+
+
+
+
+
+https://github.com/nikitametha/portfolio/assets/15265652/81edadea-c814-48ed-add8-8cd25be83849
+
+
+
+
+
+## Tech Stack
+
+
+**Client:** React, JavaScript, TailwindCSS
+
+
+**Server:** Node
+
+
+## Acknowledgements
+
+
+ - Inspired by the work of [Pappyjay23](https://github.com/Pappyjay23)
+
